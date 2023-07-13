@@ -1,0 +1,13 @@
+github command  push project on github--->
+
+1. touch .gitignore
+2. git config --global user.name "Priyanshu Kumar"
+3. git config --global user.email "Kumarpriyanshu1151@gmail.com
+4. git init
+5. git add .
+6. git commit -m "Initial commit"
+7. git status #just to see
+8. ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+9. tail <path to id_rsa.pub>  #add this key to your github account
+10. git remote add origin  <ssh url.git>
+git push origin master
