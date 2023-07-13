@@ -3,9 +3,13 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: rgb(189, 182, 233);
+    color: #fff;
+}
 
 nav{
-    background-color: rgb(37, 9, 37);
+    background-color: rgb(43, 5, 43);
     color: white;
     height: 65px;
     font-size: 27px;
@@ -43,7 +47,7 @@ nav ul{
 }
 
 .box:hover{
-    background-color: rgb(211, 243, 211);
+    background-color: gray;
 }
 
 .info {
@@ -83,7 +87,8 @@ nav ul{
 #reset {
     margin: 0 23px;
     padding: 1px 18px;
-    background: rgb(108, 108, 145);
+    color: black;
+    background: rgb(233, 38, 38);
     border-radius: 6px;
     cursor: pointer;
     font-family: 'Baloo Bhaina 2';
@@ -100,6 +105,8 @@ nav ul{
     transition: width 1s ease-in-out;
 }
 
+
+/* responsive game website */
 @media screen and (max-width: 950px)
 {
     .gameContainer{
